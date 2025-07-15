@@ -1,2 +1,2 @@
-# EcoVida-Website
-Pagina web para una tienda de productos ecologicos
+# EcoVida WebSite
+>>>>>>> 2fcdd6d (primer commit)
