@@ -369,3 +369,71 @@ h1 {
     position: relative;
     top: -70px;
 }
+/*------------------------------------------------------------------------------*/
+.seccionServicios{
+
+    background-color: #4B8E18;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.encabezadoSeccion{
+
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    gap: 100px;
+}
+.tituloEncabezado{
+    font-size: 32px;
+}
+.contenedorServicios{
+ 
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 15px 30px 15px 30px;
+margin: 0 auto;
+
+}
+
+.servicioConsultoria img{
+width: 352px;
+height: 512px;
+border-radius: 20px;
+
+
+}
+
+.servicioConsultoria{
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.talleresCharlas{
+    background-color: #4CAF50;
+    padding: 20px; 
+    top: 50px;
+}
+.talleresCharlas img{
+width: 352px;
+height: 512px;
+border-radius: 20px
+}
+
+.proyectosComunitario{
+
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+.proyectosComunitario img{
+width: 352px;
+height: 512px;
+border-radius: 20px;
+}
+
