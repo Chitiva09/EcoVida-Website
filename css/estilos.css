@@ -45,6 +45,7 @@ h1 {
 }
 
 .menuHeader {
+    background-color: #A8D5BA;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -53,7 +54,7 @@ h1 {
     padding: 15px 30px 15px 30px;
 }
 :root {
-    --primary-green: #4CAF50; 
+    --primary-green: #4B8E18; 
     --dark-green: #388E3C; 
     --text-color: #FFFFFF;
     --dark-text-color: #000000; 
@@ -369,3 +370,86 @@ h1 {
     position: relative;
     top: -70px;
 }
+
+/*  */
+.comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+    background-color: #4B8E18;
+    color: #000000;
+    align-items: center;
+    font-family: Pompiere;
+    }
+
+    .cta {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .cta .mensaje {
+    text-align: center;
+    }
+
+    .cta h2 {
+    font-size: 24px;
+    color:  rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: Poppins;
+    }
+
+    .formularioComentario {
+    flex: 1;
+    min-width: 300px;
+    background-color: #AFC0A1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    }
+
+    .formularioComentario h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-size: 30px;
+    }
+
+    .formularioComentario label {
+    color: #2a6c2d;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    }
+
+    .formularioComentario input,
+    .formularioComentario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+    color: #D9D9D9;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    }
+
+    .formularioComentario button {
+    background-color: #DEDEDE;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    }
+
+    .formularioComentario button:hover {
+    background-color: #4B8E18;
+    }
