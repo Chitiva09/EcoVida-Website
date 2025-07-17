@@ -523,6 +523,80 @@ background-color: #DEDEDE;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
 }
+/*--------------------------------------------------------------------------------*/
+.seccionNosotros{
+font-family: 'Poppins', sans-serif;
+
+}
+.mision h2, .vision h2{
+font-size: 36px;
+font-weight: bold;
+}
+
+.contenedorMisionVision{
+    display: flex;
+margin: 0 auto;
+padding: 20px;
+gap: 50px;
+
+
+}
+.mision, .vision{
+font-family: 'Poppins', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+max-width: 400px;
+
+}
+.imagenMision{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.textoMision, .textoVision{
+padding: 20px;
+margin-bottom: 100px;
+    
+}
+.textoVision{
+    margin-top: 80px;
+}
+.vision img{
+width: 302px;
+height: 302px;
+}
+.imagenMision img{
+    width: 272px;
+    height: 272px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.fotosNosotros{
+
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 70px;
+    
+}
+.imgGerente1 , .imgGerente2 , .imgGerente3 {
+background-color: #AFC0A1;
+padding: 20px;
+border-radius: 20px;
+
+}
+.imgGerente1 img, .imgGerente2 img, .imgGerente3 img{
+
+width: 328px;
+height: 492px;
+border-radius: 20px;
+
+}
 
 /* ------------------------------------------------------------------------------ */
 .comentarios {
